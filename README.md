@@ -19,7 +19,7 @@ detalle las funciones utilizadas de la libreria, pueden recurrir a su [documenta
 Cada modulo mostrado aqui tiene una descripcion dentro del codigo como comentario.
 
 # *Rastreo de una Partícula*
-Particle_tracking es un conjunto de codigos en Python con modulos para rastreo de particulas activas sinteticas en 2D.
+ActiveParticleTracker es un conjunto de codigos en Python con modulos para rastreo de particulas activas sinteticas en 2D.
 ## Modulo de Fotograma Inicial
 Este modulo nos ayuda a encontrar el fotograma donde iniciara nuestro rastreo, primero se obtiene un fotograma
 con baja luminosidad dependiendo del porcentaje de oscuridad deseado, luego se superponen los fotogramas para
@@ -73,7 +73,7 @@ used by the library, you can refer to its [documentation](https://docs.opencv.or
 
 
 # *Active Particle Tracking*
-Particle_tracking is a set of Python codes with modules for tracking synthetic active particles in 2D.
+ActiveParticleTracker is a set of Python codes with modules for tracking synthetic active particles in 2D.
 ## Initial Frame Module 
 This module helps us to find the frame in which the tracking is going to start, obtain a frame with low luminosity according to a darkness percentage, then use 
 the frame superposition to detect the motion of the particle, and finally, when it detects motion, we use one of the superpositioned frames* to be our initial frame. 
