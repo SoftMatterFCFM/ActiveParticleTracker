@@ -158,8 +158,8 @@ def traking_particle_CSRT(orientation, area, delta: int = 0, irl = False):
               font = cv2.FONT_HERSHEY_SIMPLEX
               cv2.namedWindow('Tracking', cv2.WINDOW_NORMAL)
               cv2.resizeWindow('Tracking', 1280,720)
-              cv2.putText(frame, 'Tracker', (400,30), font, 1, (0,255,0), 2)
-              cv2.putText(frame, str(fps), (300,30), font, 1, (0,255,0), 2)
+              cv2.putText(frame, 'TrackerV1.10', (400,35), font, 1, (0,255,0), 2)
+              cv2.putText(frame, "Frame: " + str(fps), (100,35), font, 1, (0,255,0), 2)
               cv2.imshow('Tracking',frame)    
               cv2.waitKey(1)
             
