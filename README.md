@@ -9,7 +9,7 @@
   <summary>Español // Spanish</summary>
   
 # Información
-En este repositorio hay carpetas con los modulos por separado (ingles o español) y una llamada "Automatic",
+En este repositorio hay carpetas con los modulos por separado (ingles o español), una llamada "Automatic",
 el cual tiene un codigo que incluye todos los modulos para hacer el proceso de rastreo de manera automatizada.
 Se recomienda usar el modulo de "RastreoV1.10" para rastrear la particula ya que, el codigo de "AutoTrack" esta 
 en una fase preliminar.
@@ -64,33 +64,33 @@ Versión mas reciente V1.10.
   <summary>Inglés // English</summary>
 
 # *Information*
-In this repository are folders with separate modules (English or Spanish) and one named "Automatic" which has
+In this repository there are folders with separate modules (English or Spanish) one named "Automatic" which has
 a script that includes all the modules to do the tracking process in an automated way. We recommend the use of
 "TrackerV1.10" module to track the particle since the "AutoTrack" script is in a preliminary phase.
 
-These codes are supported by the [OpenCV](https://opencv.org/) library, in case you need to know more details about the functions
+These codes are supported by the [OpenCV](https://opencv.org/) library, if you need to know more details about the functions
 used by the library, you can refer to its [documentation](https://docs.opencv.org/). Each module shown here has a description inside the script as a comment.
 
 
 # *Active Particle Tracking*
 ActiveParticleTracker is a set of Python codes with modules for tracking synthetic active particles in 2D.
 ## Initial Frame Module 
-This module helps us to find the frame in which the tracking is going to start, obtain a frame with low luminosity according to a darkness percentage, then use 
-the frame superposition to detect the motion of the particle, and finally, when it detects motion, we use one of the superpositioned frames* to be our initial frame. 
+This module helps us to find the frame in which the tracking is going to start, it obtains a frame with low luminosity according to a darkness percentage, then it uses 
+the frame superposition to detect the particle's motion and finally, when it detects motion, we use one of the superpositioned frames* to be our initial frame. 
 
 Latest version V0.14.
 
 ![Imagen2](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/ce9e5af8-471d-4804-a75d-126ae09385f1)  ======> 
 ![Imagen3](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/358e8cec-cd0b-4ff1-8163-b761698bcbfa)
 
-*The superposition method consists of 5 frames added together if the returned initial frame of the module
-don't work to initialize the tracking, you can take a frame number ± 2 of the frame number returned given by
-the module.
+*The superposition method consists of 5 frames added together, if the returned initial frame of the module
+doesn't work to initialize the tracking, you can use a frame either two places ahead or behind the frame returned by
+the module $(fr - 2 < fr < fr + 2)\text{, where }fr = \text{Frame returned}$
 
 
 ## Region of Interest Module
 This module allows us to compute the dimension and position of the area where the particle is located to avoid
-the noise in the image. This region of interest is necessary to use the DCF-CSRT tracking method.
+the noise in the image. This region of interest is needed to use the DCF-CSRT tracking method.
 
 Latest version V1.8.
 
