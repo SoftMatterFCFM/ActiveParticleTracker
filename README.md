@@ -28,9 +28,8 @@ superpuestos* como nuestro fotograma inicial.
 
 Versión mas reciente V0.14.
 
-![Imagen2](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/ce9e5af8-471d-4804-a75d-126ae09385f1)  ======> 
-![Imagen3](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/358e8cec-cd0b-4ff1-8163-b761698bcbfa)
-
+![Imagen2](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/795239e0-84a5-47c6-b96d-b51a8de2b2ed) ======> 
+![Imagen3](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/726bbe7e-7879-44bb-8935-5144b021b761)
 
 
 *La superposición consta de 5 fotogramas sumados, si el fotograma inicial que
@@ -44,7 +43,7 @@ para usar el método DCF-CSRT de rastreo.
 
 Versión mas reciente V1.8.
 
-![Imagen1](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/35b84123-c825-4963-9021-13ddae15857a)
+![Imagen1](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/cc477cbc-c206-4a5f-969f-f4109957993b)
 
 
 ## Modulo de Rastreo.
@@ -54,7 +53,7 @@ and Spatial Reliability Tracker)* [^2] .
 
 Versión mas reciente V1.10.
 
-![Screenshot 2023-10-04 152530](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/262fd5c7-eabc-464a-9aaa-3e08843f14d6)
+![Imagen4](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/053c75d3-48cd-4067-be2f-6ada5e2daa82)
 
 
 [^2]: Lukežic, A., Vojír, T., Zajc, L. and Kristan, M. (2017). Discriminative Correlation Filter Tracker with Channel and Spatial Reliability, International Journal of Computer Vision. https://doi.org/10.1007/s11263-017-1061-3.
@@ -80,8 +79,8 @@ the frame superposition to detect the particle's motion and finally, when it det
 
 Latest version V0.14.
 
-![Imagen2](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/ce9e5af8-471d-4804-a75d-126ae09385f1)  ======> 
-![Imagen3](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/358e8cec-cd0b-4ff1-8163-b761698bcbfa)
+![Imagen2](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/bfb15db6-b171-4b2c-a490-db951e58d1e8)  ======> 
+![Imagen3](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/19be5203-f4b4-4508-956c-9d65daaff5f0)
 
 *The superposition method consists of 5 frames added together, if the returned initial frame of the module
 doesn't work to initialize the tracking, you can use a frame either two places ahead or behind the frame returned by
@@ -94,7 +93,7 @@ the noise in the image. This region of interest is needed to use the DCF-CSRT tr
 
 Latest version V1.8.
 
-![Imagen1](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/35b84123-c825-4963-9021-13ddae15857a)
+![Imagen1](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/5e2f5cfc-8062-41c1-94d9-9d6f8ede6aa4)
 
 ## Tracking Module
 The module is used to obtain the trajectory of the synthetic active particle. This module uses the DCF-CSRT method
@@ -102,7 +101,8 @@ as a base. (Discriminative Correlation Filter with Channel and Spatial Reliabili
 
 Latest version V1.10.
 
-![Screenshot 2023-10-04 152530](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/262fd5c7-eabc-464a-9aaa-3e08843f14d6)
+![Imagen4](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/4b4830d5-29d5-47ec-a926-9e539fc17905)
+
 
 [^2]: Lukežic, A., Vojír, T., Zajc, L. and Kristan, M. (2017). Discriminative Correlation Filter Tracker with Channel and Spatial Reliability, International Journal of Computer Vision. https://doi.org/10.1007/s11263-017-1061-3.
 </details>
