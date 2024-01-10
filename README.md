@@ -82,7 +82,7 @@ Latest version V0.14.
 ![Imagen2](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/bfb15db6-b171-4b2c-a490-db951e58d1e8)  ======> 
 ![Imagen3](https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/19be5203-f4b4-4508-956c-9d65daaff5f0)
 
-*The superposition method consists of 5 frames added together, if the returned initial frame of the module
+*The superposition method consists of 5 frames added together if the returned initial frame of the module
 doesn't work to initialize the tracking, you can use a frame either two places ahead or behind the frame returned by
 the module $(fr - 2 < fr < fr + 2)\text{, where }fr = \text{Frame returned}$
 
@@ -106,3 +106,9 @@ Latest version V1.10.
 
 [^2]: Lukežic, A., Vojír, T., Zajc, L. and Kristan, M. (2017). Discriminative Correlation Filter Tracker with Channel and Spatial Reliability, International Journal of Computer Vision. https://doi.org/10.1007/s11263-017-1061-3.
 </details>
+
+# *Resultados // Results*
+
+
+https://github.com/SoftMatterFCFM/ActiveParticleTracker/assets/147351815/18f0950b-e450-47ff-897f-9c92b9600193
+
