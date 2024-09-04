@@ -1,5 +1,5 @@
 >[!IMPORTANT]
->This repository is out of date, if you want to see the updated version of this, please go to -> https://github.com/Estudillo22/SAP-tracker
+>This repository is not longer updated. For the most recent version, please visit the updated repository at --> https://github.com/Estudillo22/SAP-tracker
 
 # *Requisitos // Requirements*
 - ExifTool  ->  https://pypi.org/project/PyExifTool/#getting-pyexiftool
